@@ -9,11 +9,12 @@ def add(n1,n2):
 def sub(n1,n2):
     """takes two number arguments and returns the subtraction of them"""
     if n1>n2:
-        n1-n2
-    n2-n1
+        return n1-n2
+    return n2-n1
 
 def mul(n1,n2):
-    pass
+    """takes two number arguments and returns the multiplication of them"""
+    return n1*n2
    
 def div(n1,n2):
     pass
